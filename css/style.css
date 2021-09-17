@@ -1,0 +1,343 @@
+.header
+{
+    height: 650px;
+    background:url(../images/banner.jpg)gray;
+    background-blend-mode: multiply;
+    background-size: cover;
+    /* background-position: top    ; */
+    overflow: hidden;
+
+}
+.header-inner
+{
+    width: 80%;
+    height: 600px;
+    /* background-color: yellow; */
+    margin: auto;
+    overflow: hidden;
+}
+.logo
+{
+    width: 300px;
+    height: 60px;
+    color: white;
+    /* background: violet; */
+    float: left;
+    /* overflow:hidden; */
+}
+.logo p
+{
+    width: 80%;
+    height: 60px;
+    font-size: 20px;
+    /* background-color: green; */
+    margin-top: 0px;
+    font-family: sans-serif;
+    float: left;
+    line-height: 70px;
+}
+.logo figure
+{
+    float: left;
+    margin: 0px;
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    /* background-color: aqua; */
+}
+/* .logo p::before
+{
+    content: url(../images/burger.png);
+    padding-right: 10px;
+    padding-left: 5px;
+    background-color: greenyellow;
+
+} */
+
+.navbar
+{
+    width: 450px;
+    height: 50px;
+    font-family: sans-serif;
+    /* background:red; */
+    float: right;
+    overflow: hidden;
+}
+.navbar ul
+{
+    color: white;
+    list-style: none;
+    box-sizing: border-box;
+}
+.navbar ul li
+{
+    display: inline;
+    margin-left: 50px;
+}
+.home
+{
+    color: orange;
+}
+.contant
+{
+    clear: both;
+    width:50%;
+    height: 600px;
+    /* background: brown; */
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* margin: left; */
+    /* margin-top: 50px; */
+}
+.t1
+{
+
+    color: white;
+    /* background-color: yellow; */
+    font-family: sans-serif;
+    font-size: max(24px,2vw);
+
+}
+.t2
+{
+    /* display: inline; */
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    font-size: max(16px,6.5vw);
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+.prc
+{
+    color: white;
+    /* font-size: max(18px,.75vw); */
+    font-size: max(12px,1.3vw);
+}
+.menu
+{
+    color: black;
+    padding:10px 20px;
+    font: bold max(0.9vw,8px) sans-serif ;
+    background-color: orange;
+    /* border: orange solid 2px; */
+    border-radius: 5px;
+    margin-right: 5px;
+
+}
+.table
+{
+    color: orange;
+    padding:8px 16px;
+    font: bold max(0.9vw,8px) sans-serif ;
+    /* background-color: orange; */
+    border: orange solid 2px;
+    border-radius: 5px;    
+}
+
+/* section1 */
+.section1
+{
+    height: 400px;
+    background-color: lightgray;
+    overflow: hidden;
+}
+.section1-inner
+{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    /* background-color: indigo; */
+    overflow: hidden;
+}
+.block
+{
+    width: 30%;
+    height: 350px;
+    background-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin:  30px 1.5%;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+.al
+{
+    margin-left: 0px;
+}
+.section1-inner figure
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+.section1-inner .img1
+{
+    box-sizing: border-box;
+    /* padding: 10px; */
+    /* width: 40px; */
+    width: max(15px,2.5vw);
+    height: max(15px,2.5vw);
+    margin-left: 125px;
+    /* display: block; */
+    /* text-align: center; */
+}
+.section1-inner .t
+{
+    color: black;
+    /* background-color: yellow; */
+    /* font-size: 20px; */
+    font-size: max(14px,1.6vw);
+    text-align: center;
+    font-family: sans-serif;
+}
+.section1-inner .pr
+{
+    box-sizing: border-box;
+    padding: 20px;
+    /* background-color: tomato; */
+    /* font-size: 18px; */
+    font-size: max(10px,1.2vw);
+    color: gray;
+    font-family: sans-serif;
+}
+.section1-inner .tl
+{
+    text-align: center;
+    /* background-color: blueviolet; */
+    font-family: sans-serif;
+    font-size: max(12px,1.4vw)
+}
+
+/* section2 */
+.section2
+{
+    height: 400px;
+    background-color: white;
+    overflow: hidden;
+}
+.section2-inner
+{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    /* background-color: indigo; */
+}
+.block1
+{
+    width: 35%;
+    height: 400px;
+    /* background-color: white; */
+    float: left;
+    box-sizing: border-box;
+    margin: 0px 10% 0px 5%;
+    font-family: sans-serif; 
+    /* border: 2px solid #000; */
+}
+.block1 ul 
+{
+    width: 100%;
+    margin-top: 0px;
+    height: 400px;
+    /* background-color: orange    ; */
+    list-style: none;
+    /* font-size: 26px; */
+    font-size: max(12px,1.5vw);
+    color: #666;
+    /* box-sizing: border-box; */
+    /* border: red solid 2px; */
+    
+
+}
+.space
+{
+    margin-top: max(90px,8vw) !important;
+    /* margin-bottom : 100px; */
+    /* background-color: red; */
+}
+.block1 ul li
+{
+    margin-top: 20px;
+}
+.block1 ul li::before
+{
+    content: '\2661';
+    color: orange;
+    padding-right: 2px;
+    font-size: max(16,2vw);
+}
+.block1-img
+{
+    width: 100%;
+    height: 400px;
+}
+
+/* contact */
+.contact
+{
+    height: 250px;
+    background:url(../images/bg.jpg) gray;
+    background-blend-mode: multiply;
+    background-position:right center;
+    background-size: cover;
+    overflow: hidden;
+}
+.contact-inner
+{
+    width: 35%;
+    height: 250px;
+    margin: auto;
+    /* background: red; */
+    overflow: hidden;
+}
+.contact-inner p
+{
+    margin-top: 0px;
+    font-family: sans-serif;
+    height: 100px;
+    color: white;
+    text-align: center;
+    /* background-color: palegreen; */
+    font-size: max(16px,2.3vw);
+    /* font-size: 30px; */
+    margin-top: 100px;
+}
+.contact-inner p span
+{
+    color: orange;
+}
+.s1
+{
+    color: black !important;
+    padding:10px 20px;
+    font: bold max(0.9vw,8px) sans-serif ;
+    background-color: orange;
+    /* border: orange solid 2px; */
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.s2
+{
+    color: orange;
+    padding:8px 16px;
+    font: bold max(0.9vw,8px) sans-serif ;
+    /* background-color: orange; */
+    border: orange solid 2px;
+    border-radius: 5px; 
+}
+/* footer */
+.foot
+{
+    color: white;
+    text-align: center;
+    height: 50px;
+    background-color: #666;
+    line-height: 50px;
+    font-family: sans-serif;
+
+}
